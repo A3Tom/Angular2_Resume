@@ -1,9 +1,12 @@
-//models
-export * from './result.model';
-
-//components
-export * from '../output.component';
-export * from '../settings.component';
+//Components
+//  Pages
+export * from '../pages/splash.component';
+export * from '../pages/intro.component';
+export * from '../pages/skills.component';
+export * from '../pages/portfolio.component';
+export * from '../pages/about.component';
+export * from '../pages/contact.component';
+export * from '../pages/settings.component';
+//  Static pages
 export * from '../leftpanel.component';
-export * from '../splash.component';
 export * from '../navbar.component';

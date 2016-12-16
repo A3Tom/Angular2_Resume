@@ -7,7 +7,11 @@ import { Router }           from '@angular/router';
 })
 
 export class NavbarComponent{
-    title: string = 'Skeleton Angular 2 App';
-    tab1: string = 'Output';
-    tab2: string = 'Settings';
+    title: string = 'Thomas Smith';
+    tab1: string = 'Intro';
+    tab2: string = 'Skills';
+    tab3: string = 'Portfolio';
+    tab4: string = 'About Me';
+    tab5: string = 'Contact Me';
+    tab6: string = 'Settings';
 }

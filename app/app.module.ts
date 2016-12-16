@@ -5,7 +5,9 @@ import { RouterModule }  from '@angular/router';
 
 import { AppComponent }  from './app.component';
 
-import { OutputComponent, SettingsComponent, SplashComponent, LeftPanelComponent, NavbarComponent } from './components/shared/index';
+//Pages in use
+import { SplashComponent, IntroComponent, SkillsComponent, PortfolioComponent, AboutComponent, ContactComponent, SettingsComponent } from './components/shared/index';
+import { LeftPanelComponent, NavbarComponent } from './components/shared/index';
 
 @NgModule({
   imports:      [
@@ -17,8 +19,28 @@ import { OutputComponent, SettingsComponent, SplashComponent, LeftPanelComponent
           component: SplashComponent
         },
         {
-          path: 'output',
-          component: OutputComponent
+          path: 'splash-component',
+          component: SplashComponent
+        },
+        {
+          path: 'intro',
+          component: IntroComponent
+        },
+        {
+          path: 'skills',
+          component: SkillsComponent
+        },
+        {
+          path: 'portfolio',
+          component: PortfolioComponent
+        },
+        {
+          path: 'about',
+          component: AboutComponent
+        },
+        {
+          path: 'contact',
+          component: ContactComponent
         },
         {
           path: 'settings',
@@ -34,7 +56,7 @@ import { OutputComponent, SettingsComponent, SplashComponent, LeftPanelComponent
         }
       ]) 
     ],
-  declarations: [ AppComponent, OutputComponent, SettingsComponent, LeftPanelComponent, SplashComponent, NavbarComponent ],
+  declarations: [ AppComponent, SplashComponent, IntroComponent, SkillsComponent, PortfolioComponent, AboutComponent, ContactComponent, SettingsComponent, LeftPanelComponent, NavbarComponent ],
   bootstrap:    [ AppComponent ],
   providers:    [ HttpModule ]
 })
