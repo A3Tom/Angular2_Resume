@@ -19,10 +19,6 @@ import { LeftPanelComponent, NavbarComponent } from './components/shared/index';
           component: SplashComponent
         },
         {
-          path: 'splash-component',
-          component: SplashComponent
-        },
-        {
           path: 'intro',
           component: IntroComponent
         },
